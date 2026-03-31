@@ -1,15 +1,39 @@
+# --- Python & Virtual Environment ---
 __pycache__/
 *.py[cod]
-*.dll
-*.so
+*.class
 .venv/
 venv/
+env/
+
+# --- Databases (Keep schema, ignore data) ---
 *.db
 *.sqlite3
+*.local
+
+# --- IDEs & Editor configs ---
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# --- OS Specific ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Frontend (Node.js & Vite) ---
 gui/node_modules/
 gui/dist/
+gui/.eslintcache
+
+# --- Packaging & Build (Output) ---
 dist/
 build/
 *.spec
+docs/ai/
+
+# --- Native Libraries (DLL Inclusion) ---
+# 일반적으로 *.dll은 무시되지만, IEUM 프로젝트에서는 명시적으로 포함합니다.
+# 만약 다른 파일 형식(.so, .dylib 등)도 포함하고 싶다면 여기에 추가하세요.
+!*.dll
