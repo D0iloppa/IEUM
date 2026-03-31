@@ -71,7 +71,7 @@
 
 ---
 
-## 5. 🚀 Development Roadmap (SDD)
+## 5. 🚀 Development Roadmap
 
 ### **Phase 1: Foundation (Core Engine)**
 * [ ] `pywebview` 기반 기본 윈도우 및 브릿지 설정.

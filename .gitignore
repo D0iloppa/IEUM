@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.dll
+*.so
+.venv/
+venv/
+*.db
+*.sqlite3
+.vscode/
+.idea/
+gui/node_modules/
+gui/dist/
+dist/
+build/
+*.spec
